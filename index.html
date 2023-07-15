@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/057967cd46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="file:///Users/lekhraj/Desktop/images%202/logo.png" class="logo">
+            <ul>
+                <li><img src="file:///Users/lekhraj/Desktop/images%202/notification.png" alt=""></li>
+                <li><img src="file:///Users/lekhraj/Desktop/images%202/inbox.png" alt=""></li>
+                <li><img src="file:///Users/lekhraj/Desktop/images%202/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="file:///Users/lekhraj/Desktop/images/search.png">
+                <input type="text" placeholder="search-box">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+            </div>
+        </div>
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="file:///Users/lekhraj/Desktop/images/feedback.png">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="file:///Users/lekhraj/Desktop/images/setting.png" class="settings-icon">
+                    <a href="#">Settings and privacy<img src="file:///Users/lekhraj/Desktop/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="file:///Users/lekhraj/Desktop/images/help.png" class="settings-icon">
+                    <a href="#">help & support<img src="file:///Users/lekhraj/Desktop/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="file:///Users/lekhraj/Desktop/images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessbility<img src="file:///Users/lekhraj/Desktop/images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="file:///Users/lekhraj/Desktop/images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="file:///Users/lekhraj/Desktop/images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <!------left sidebar------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/news.png"> Latest news</a>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/friends.png"> friends</a>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/group.png"> Group</a>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/marketplace.png"> marketplace</a>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/watch.png"> Watch</a>
+                <a href="#">see more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your shortcut</p>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/shortcut-1.png"> Web Developers</a>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/shortcut-2.png"> Web Design course</a>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/shortcut-3.png"> full stack development</a>
+                <a href="#"><img src="file:///Users/lekhraj/Desktop/images/shortcut-4.png"> Website experts</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="file:///Users/lekhraj/Desktop/images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="file:///Users/lekhraj/Desktop/images/member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="file:///Users/lekhraj/Desktop/images/member-2.png">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="file:///Users/lekhraj/Desktop/images/member-3.png">
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="file:///Users/lekhraj/Desktop/images/member-4.png">
+                    <p>john doe</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-cointainer">
+                    <textarea rows="3" placeholder="Whats on your mind, John"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="file:///Users/lekhraj/Desktop/images/live-video.png"> Live Video</a>
+                        <a href="#"><img src="file:///Users/lekhraj/Desktop/images/photo.png"> Photo/Video</a>
+                        <a href="#"><img src="file:///Users/lekhraj/Desktop/images/feeling.png"> feeling/activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Subscribe <span>@Scratch Boy</span> Youtube channel to watch more videos on website development and UI designs.<a href="#">#Scratch boy</a><a href="#">#YoutubeChannel</a></p>
+                <img src="file:///Users/lekhraj/Desktop/images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="file:///Users/lekhraj/Desktop/images/like-blue.png">120</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/comments.png">45</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> like and share this video with your friends and tag <span>@Scratch Boy</span> Facebook page on your post. Ask any doubts in the comments <a href="#">#Scratch boy</a><a href="#">#YoutubeChannel</a></p>
+                <img src="file:///Users/lekhraj/Desktop/images/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="file:///Users/lekhraj/Desktop/images/like.png">120</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/comments.png">45</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> like and share this video with your friends and tag <span>@Scratch Boy</span> Facebook page on your post. Ask any doubts in the comments <a href="#">#Scratch boy</a><a href="#">#YoutubeChannel</a></p>
+                <img src="file:///Users/lekhraj/Desktop/images/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="file:///Users/lekhraj/Desktop/images/like.png">120</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/comments.png">45</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> like and share this video with your friends and tag <span>@Scratch Boy</span> Facebook page on your post. Ask any doubts in the comments <a href="#">#Scratch boy</a><a href="#">#YoutubeChannel</a></p>
+                <img src="file:///Users/lekhraj/Desktop/images/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="file:///Users/lekhraj/Desktop/images/like.png">120</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/comments.png">45</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> like and share this video with your friends and tag <span>@Scratch Boy</span> Facebook page on your post. Ask any doubts in the comments <a href="#">#Scratch boy</a><a href="#">#YoutubeChannel</a></p>
+                <img src="file:///Users/lekhraj/Desktop/images/feed-image-5.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="file:///Users/lekhraj/Desktop/images/like.png">120</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/comments.png">45</div>
+                        <div><img src="file:///Users/lekhraj/Desktop/images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="file:///Users/lekhraj/Desktop/images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn">load more</button>
+        </div>
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">see all</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social media</h4>
+                    <p><img src="https://www.clipartmax.com/png/small/69-696141_map-pointer-map-marker-icon.png" alt="Map Pointer - Map Marker Icon @clipartmax.com" , height="12px"> Willson Tech Park</p>
+                    <a href="#">more info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>mobile marketing</h4>
+                    <p><img src="https://www.clipartmax.com/png/small/69-696141_map-pointer-map-marker-icon.png" alt="Map Pointer - Map Marker Icon @clipartmax.com" , height="12px"> Willson Tech Park</p>
+                    <a href="#">more info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">close</a>
+            </div>
+            <img src="file:///Users/lekhraj/Desktop/images/advertisement.png" , class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>conversation</h4>
+                <a href="#">hide chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="file:///Users/lekhraj/Desktop/images/member-1.png">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="file:///Users/lekhraj/Desktop/images/member-2.png">
+                </div>
+                <p>Jackson aston</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="file:///Users/lekhraj/Desktop/images/member-3.png">
+                </div>
+                <p>Samona rose</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2021 - scratch boy youtube channel</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
